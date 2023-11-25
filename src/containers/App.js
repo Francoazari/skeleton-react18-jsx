@@ -5,6 +5,7 @@ import Counter from '../components/Counter'
 const App = () => {
   return (
     <main>
+      <h1>Contador</h1>
       <Counter />
     </main>
   )
