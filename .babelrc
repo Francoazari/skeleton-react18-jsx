@@ -1,0 +1,16 @@
+{
+    // Presets son conjuntos preconfigurados de plugins, aquí usamos dos:
+    "presets": [
+      // @babel/preset-env adapta automáticamente el código a la versión de ECMAScript según el entorno de destino.
+      "@babel/preset-env",
+  
+      // @babel/preset-react se utiliza para admitir características específicas de React, como JSX.
+      "@babel/preset-react"
+    ],
+  
+    // Los plugins son transformaciones específicas que se aplican al código, aquí usamos uno:
+    "plugins": [
+      // transform-class-properties permite la transformación de propiedades de clase, haciendo compatible el código con entornos más antiguos.
+      "transform-class-properties"
+    ]
+  }
